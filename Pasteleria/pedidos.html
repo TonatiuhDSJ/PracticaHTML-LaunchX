@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo Cake Evangelion - Pedido</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header>
+        <h1 class="nombre-sitio">Pasteleria <span> Tercer Impacto </span></h1>
+    </header>
+    
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="panadero.html">Panadero</a>
+            <a href="pedidos.html">Pedido</a>
+        </nav>
+    </div>
+
+    
+    <main class="contenido-principal contenedor ">
+        <h2 class="text-center">Pedido</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Haz tu pedido</legend>
+                
+                <div class="campo">
+                    <label for="nombre">Nombre(s): </label>
+                    <input  id="nombre" type="text" placeholder="Tu Nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Teléfono:</label>
+                    <input id="tel" type="tel" placeholder="Tu Teléfono" >
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="Tu Email" >
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Descripción del pastel:</label>
+                    <textarea rows="10" cols="20"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>País</legend>
+
+                <div class="campo">
+                    <label for="sabor-adorno">Sabor y Adornos</label>
+                    <select id="sabor">
+                        <option value="">-- Seleccione Sabor-- </option>
+                        <option value="sabor1">Sabor 1</option>
+                        <option value="sabor2">Sabor 2</option>
+                        <option value="sabor3">Sabor 3</option>
+                        <option value="sabor4">Sabor 4</option>
+                        <option value="sabor5">Sabor 5</option>
+                        <option value="sabor6">Sabor 6</option>
+                    </select>
+
+                    <select id="adorno">
+                        <option value="">-- Seleccione Adorno-- </option>
+                        <option value="adorno1">Adorno 1</option>
+                        <option value="adorno2">Adorno 2</option>
+                        <option value="adorno3">Adorno 3</option>
+                        <option value="adorno4">Adorno 4</option>
+                        <option value="adorno5">Adorno 5</option>
+                        <option value="adorno6">Adorno 6</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+            <input class="btn" type="submit" value="Hacer Pedido" >
+        </form>
+        
+    </main>
+
+
+
+
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+            <div>
+                <h3>Direccion</h3>
+
+                <nav class="footer-menu">
+                    <p class="footer-menu_direccion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quia pariatur</p>
+                </nav>
+            </div>
+
+            <div>
+                <h3>Telefono</h3>
+                <nav class="footer-menu">
+                    <p class="footer-menu_telefono">Telefono: 4425917590</p>
+                </nav>
+            </div>
+
+            <div>
+                <h3>Horarios</h3>
+                <nav class="footer-menu">
+                    <li>Lun - Viernes: <p>10:00am - 6:00pm</p></li>
+                    <li>Sab - Dom: <p>10:00am - 3:00pm</li>
+                </nav>
+            </div>
+
+        </div>
+
+        <p class="copyright">Todos los derechos Reservados, TercerImpacto</p>
+    </footer>
+
+</body>
+</html>
